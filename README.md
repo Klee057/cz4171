@@ -5,12 +5,12 @@ https://youtu.be/qUYd8dFTbM4\
 
 This project is a Python-based server that uses facial recognition to identify faces in images sent by clients. It receives an image, performs facial recognition, and returns the names of the recognized faces.\
 
-# Features:\
+# Features:
 Image Reception: The server receives images from a client over a socket connection.\
 Facial Recognition: It uses the face_recognition library to identify faces in the received image.\
 Socket Communication: The server communicates with the client using sockets, sending back recognized face names.\
 
-# How it works:\
+# How it works:
 Server Setup: The server listens for incoming connections from clients on port 5005.\
 python facial_recognition_server.py\
 Image Reception: Once a connection is made, the server receives an image file in byte format from the client.\
